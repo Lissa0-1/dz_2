@@ -27,3 +27,19 @@ else:
     print(f"Нужно перевернуть {Zero} монеты решкой вверх")
 
 
+# второй вариант
+n = int(input())
+k = 0 # кол-во нулей
+b = 0 # кол-во единиц
+for i in range(n ):
+    a = int(input())
+    if a == 1 :
+            b = b + 1
+    if a == 0 :
+            k = k + 1
+
+if b > k :
+    print(k)
+
+else :
+    print(b)

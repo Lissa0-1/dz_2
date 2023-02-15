@@ -7,3 +7,11 @@
 # 4 4 -> 2 2
 # 5 6 -> 2
 
+
+s = int(input())
+p = int(input())
+for x in range(1000):
+        for y in range(1000):
+            if (x + y == s) and (x *y == p):
+                print(x)
+                print(y)
